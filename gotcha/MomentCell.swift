@@ -6,21 +6,22 @@
 //  Copyright © 2015 Bingyao Li. All rights reserved.
 //
 
-import UIKit
 
-class MomentCell:UITableViewCell {
+import UIKit
+class MomentRowCell :UITableViewCell{
     
-    @IBOutlet var avatar: UIButton!
+    @IBOutlet var avatar: UIImageView!
     
     @IBOutlet var name: UIButton!
-    @IBOutlet var texts: UITextView!
-    @IBOutlet var img: UITableView!
+
+    @IBOutlet var textView: UITextView!
     
     @IBOutlet var likeNum: UILabel!
-    @IBOutlet var commentNum: UIButton!
     
-    @IBAction func likePressed(sender: UIButton) {
+    @IBOutlet var commNum: UIButton!
+    
+    @IBAction func lovePressed(sender: AnyObject) {
     }
-    @IBAction func commentPressed(sender: UIButton) {
+    @IBAction func sayPressed(sender: UIButton) {
     }
 }

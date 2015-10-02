@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		651131641BBF01F200187C1A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131631BBF01F200187C1A /* ChatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		651131661BBF02A300187C1A /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131651BBF02A300187C1A /* ChatListCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6514B9CD1BBA6AA10087E5FB /* ClassRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */; settings = {ASSET_TAGS = (); }; };
 		65645BAB1BBBA37C006B8E2D /* classCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65645BAA1BBBA37C006B8E2D /* classCell.swift */; settings = {ASSET_TAGS = (); }; };
 		65CAA9FD1BB3377E00B39C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAA9FC1BB3377E00B39C40 /* AppDelegate.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRoomViewController.swift; sourceTree = "<group>"; };
+		651131631BBF01F200187C1A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		651131651BBF02A300187C1A /* ChatListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
 		6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRowCell.swift; sourceTree = "<group>"; };
 		65645BAA1BBBA37C006B8E2D /* classCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classCell.swift; sourceTree = "<group>"; };
 		65CAA9F91BB3377E00B39C40 /* gotcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gotcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,6 +122,8 @@
 				65645BAA1BBBA37C006B8E2D /* classCell.swift */,
 				65E1D5621BBD04BA00E94FB6 /* MomentViewController.swift */,
 				65E1D5641BBD05C000E94FB6 /* MomentCell.swift */,
+				651131631BBF01F200187C1A /* ChatViewController.swift */,
+				651131651BBF02A300187C1A /* ChatListCell.swift */,
 			);
 			path = gotcha;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 				TargetAttributes = {
 					65CAA9F81BB3377E00B39C40 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = WEB522J5TA;
 					};
 					65CAAA0C1BB3377E00B39C40 = {
 						CreatedOnToolsVersion = 7.0;
@@ -272,6 +279,8 @@
 			files = (
 				65CAA9FF1BB3377E00B39C40 /* HomeViewController.swift in Sources */,
 				650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */,
+				651131641BBF01F200187C1A /* ChatViewController.swift in Sources */,
+				651131661BBF02A300187C1A /* ChatListCell.swift in Sources */,
 				65E1D5631BBD04BA00E94FB6 /* MomentViewController.swift in Sources */,
 				65CAA9FD1BB3377E00B39C40 /* AppDelegate.swift in Sources */,
 				65E1D5651BBD05C000E94FB6 /* MomentCell.swift in Sources */,
@@ -418,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = gotcha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
@@ -429,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = gotcha/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
