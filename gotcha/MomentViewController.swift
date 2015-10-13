@@ -12,6 +12,7 @@ class MomentViewController:UIViewController,UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
 
+    @IBOutlet var imgTableView: UITableView!
     var moments = [
         ["name":"Joy","text":"I want ice cream","numLike":7,"commNum":15]
     ];

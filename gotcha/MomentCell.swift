@@ -24,4 +24,8 @@ class MomentRowCell :UITableViewCell{
     }
     @IBAction func sayPressed(sender: UIButton) {
     }
+    @IBOutlet var imgTableView: UITableView!
+    
+    
+
 }

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-class ChatViewController:UITableViewController {
+class ChatViewController:UITableViewController,CancelButtonDelegate {
     var quotesArray = [
         ["quote": "Some text here", "author": "Some guy"],
         ["quote": "Some text here", "author": "Some guy"],
@@ -29,17 +29,29 @@ class ChatViewController:UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         // dequeue the cell from our storyboard
-        let cell = tableView.dequeueReusableCellWithIdentifier("ClassCell")! as! ClassCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("ChatListCell")! as! ChatListCell
         
         // if the cell has a text label, set it to the model that is corresponding to the row in array
-
+        cell.name.text = quotesArray[indexPath.row]["author"]
         
         // return cell so that Table View knows what to draw in each row
         return cell
     }
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 2;
+        return quotesArray.count;
     }//draw table
+    
+    func cancelButtonPressedFrom(controller: UIViewController) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "ClickedChatList" {
+            let navigationController = segue.destinationViewController as! UINavigationController
+            let controller = navigationController.topViewController as! SingleChatRoomViewController
+            controller.cancelButtonDelegate = self
+        }
+    }
     
 }

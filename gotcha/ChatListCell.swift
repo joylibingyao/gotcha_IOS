@@ -10,5 +10,6 @@ import UIKit
 class ChatListCell: UITableViewCell {
     
     @IBOutlet var name: UILabel!
-    @IBOutlet var avatar: UIView!
+
+    @IBOutlet var avatar: UIImageView!
 }
