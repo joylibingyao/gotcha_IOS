@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6505516E1BC0F481001BB130 /* ComImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505516D1BC0F481001BB130 /* ComImgCell.swift */; settings = {ASSET_TAGS = (); }; };
+		650551751BC109C1001BB130 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 650551741BC109C1001BB130 /* notes */; settings = {ASSET_TAGS = (); }; };
 		650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		651131641BBF01F200187C1A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131631BBF01F200187C1A /* ChatViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		651131661BBF02A300187C1A /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131651BBF02A300187C1A /* ChatListCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6514B9CD1BBA6AA10087E5FB /* ClassRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AE41BCCE1C800F71E31 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AE31BCCE1C800F71E31 /* CancelButtonDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AE61BCCE2D800F71E31 /* SingleChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AE51BCCE2D800F71E31 /* SingleChatRoom.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AE81BCCE8E800F71E31 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AE71BCCE8E800F71E31 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AEA1BCCEA2900F71E31 /* SettingsDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AE91BCCEA2900F71E31 /* SettingsDetailCell.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AEC1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AEB1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift */; settings = {ASSET_TAGS = (); }; };
+		654C9AEE1BCCEF4700F71E31 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654C9AED1BCCEF4700F71E31 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		655994D41BCCD8B6005156A2 /* ChatHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 655994D31BCCD8B6005156A2 /* ChatHeader.m */; settings = {ASSET_TAGS = (); }; };
 		65645BAB1BBBA37C006B8E2D /* classCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65645BAA1BBBA37C006B8E2D /* classCell.swift */; settings = {ASSET_TAGS = (); }; };
+		659A59701BC07CC900B101F6 /* MomentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A596F1BC07CC900B101F6 /* MomentDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		659A59721BC07FBD00B101F6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659A59711BC07FBD00B101F6 /* CommentCell.swift */; settings = {ASSET_TAGS = (); }; };
 		65CAA9FD1BB3377E00B39C40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAA9FC1BB3377E00B39C40 /* AppDelegate.swift */; };
 		65CAA9FF1BB3377E00B39C40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65CAA9FE1BB3377E00B39C40 /* HomeViewController.swift */; };
 		65CAAA021BB3377E00B39C40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65CAAA001BB3377E00B39C40 /* Main.storyboard */; };
@@ -41,11 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6505516D1BC0F481001BB130 /* ComImgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComImgCell.swift; sourceTree = "<group>"; };
+		650551741BC109C1001BB130 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 		650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRoomViewController.swift; sourceTree = "<group>"; };
 		651131631BBF01F200187C1A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		651131651BBF02A300187C1A /* ChatListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
 		6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRowCell.swift; sourceTree = "<group>"; };
+		654C9AE31BCCE1C800F71E31 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		654C9AE51BCCE2D800F71E31 /* SingleChatRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleChatRoom.swift; sourceTree = "<group>"; };
+		654C9AE71BCCE8E800F71E31 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		654C9AE91BCCEA2900F71E31 /* SettingsDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDetailCell.swift; sourceTree = "<group>"; };
+		654C9AEB1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingDetailAvatarCell.swift; sourceTree = "<group>"; };
+		654C9AED1BCCEF4700F71E31 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		655994D21BCCD8B6005156A2 /* gotcha-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gotcha-Bridging-Header.h"; sourceTree = "<group>"; };
+		655994D31BCCD8B6005156A2 /* ChatHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatHeader.m; sourceTree = "<group>"; };
 		65645BAA1BBBA37C006B8E2D /* classCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classCell.swift; sourceTree = "<group>"; };
+		659A596F1BC07CC900B101F6 /* MomentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentDetailViewController.swift; sourceTree = "<group>"; };
+		659A59711BC07FBD00B101F6 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		65CAA9F91BB3377E00B39C40 /* gotcha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gotcha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65CAA9FC1BB3377E00B39C40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65CAA9FE1BB3377E00B39C40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -88,9 +111,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6505516F1BC10807001BB130 /* Moment */ = {
+			isa = PBXGroup;
+			children = (
+				659A59711BC07FBD00B101F6 /* CommentCell.swift */,
+				6505516D1BC0F481001BB130 /* ComImgCell.swift */,
+				659A596F1BC07CC900B101F6 /* MomentDetailViewController.swift */,
+				65E1D5641BBD05C000E94FB6 /* MomentCell.swift */,
+				65E1D5621BBD04BA00E94FB6 /* MomentViewController.swift */,
+			);
+			name = Moment;
+			sourceTree = "<group>";
+		};
+		650551701BC1082D001BB130 /* ClassRoom */ = {
+			isa = PBXGroup;
+			children = (
+				65645BAA1BBBA37C006B8E2D /* classCell.swift */,
+				6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */,
+				650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */,
+			);
+			name = ClassRoom;
+			sourceTree = "<group>";
+		};
+		650551711BC10852001BB130 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				65CAA9FE1BB3377E00B39C40 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		650551721BC1085D001BB130 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				651131631BBF01F200187C1A /* ChatViewController.swift */,
+				651131651BBF02A300187C1A /* ChatListCell.swift */,
+				654C9AE51BCCE2D800F71E31 /* SingleChatRoom.swift */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		650551731BC10898001BB130 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				654C9AE71BCCE8E800F71E31 /* SettingsViewController.swift */,
+				654C9AE91BCCEA2900F71E31 /* SettingsDetailCell.swift */,
+				654C9AEB1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift */,
+				654C9AED1BCCEF4700F71E31 /* MoreViewController.swift */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		6577914E1BCCDDC5006765ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		65CAA9F01BB3377E00B39C40 = {
 			isa = PBXGroup;
 			children = (
+				6577914E1BCCDDC5006765ED /* Frameworks */,
 				65CAA9FB1BB3377E00B39C40 /* gotcha */,
 				65CAAA101BB3377E00B39C40 /* gotchaTests */,
 				65CAAA1B1BB3377E00B39C40 /* gotchaUITests */,
@@ -111,19 +193,20 @@
 		65CAA9FB1BB3377E00B39C40 /* gotcha */ = {
 			isa = PBXGroup;
 			children = (
-				65CAAA081BB3377E00B39C40 /* Info.plist */,
 				65CAAA001BB3377E00B39C40 /* Main.storyboard */,
+				650551711BC10852001BB130 /* Home */,
+				6505516F1BC10807001BB130 /* Moment */,
+				650551701BC1082D001BB130 /* ClassRoom */,
+				650551721BC1085D001BB130 /* Chat */,
+				650551731BC10898001BB130 /* More */,
+				65CAAA081BB3377E00B39C40 /* Info.plist */,
 				65CAA9FC1BB3377E00B39C40 /* AppDelegate.swift */,
-				65CAA9FE1BB3377E00B39C40 /* HomeViewController.swift */,
 				65CAAA031BB3377E00B39C40 /* Assets.xcassets */,
 				65CAAA051BB3377E00B39C40 /* LaunchScreen.storyboard */,
-				650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */,
-				6514B9CC1BBA6AA10087E5FB /* ClassRowCell.swift */,
-				65645BAA1BBBA37C006B8E2D /* classCell.swift */,
-				65E1D5621BBD04BA00E94FB6 /* MomentViewController.swift */,
-				65E1D5641BBD05C000E94FB6 /* MomentCell.swift */,
-				651131631BBF01F200187C1A /* ChatViewController.swift */,
-				651131651BBF02A300187C1A /* ChatListCell.swift */,
+				650551741BC109C1001BB130 /* notes */,
+				655994D31BCCD8B6005156A2 /* ChatHeader.m */,
+				655994D21BCCD8B6005156A2 /* gotcha-Bridging-Header.h */,
+				654C9AE31BCCE1C800F71E31 /* CancelButtonDelegate.swift */,
 			);
 			path = gotcha;
 			sourceTree = "<group>";
@@ -208,6 +291,7 @@
 		65CAA9F11BB3377E00B39C40 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Bingyao Li";
 				TargetAttributes = {
@@ -252,6 +336,7 @@
 			files = (
 				65CAAA071BB3377E00B39C40 /* LaunchScreen.storyboard in Resources */,
 				65CAAA041BB3377E00B39C40 /* Assets.xcassets in Resources */,
+				650551751BC109C1001BB130 /* notes in Resources */,
 				65CAAA021BB3377E00B39C40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,12 +362,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654C9AEA1BCCEA2900F71E31 /* SettingsDetailCell.swift in Sources */,
 				65CAA9FF1BB3377E00B39C40 /* HomeViewController.swift in Sources */,
 				650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */,
 				651131641BBF01F200187C1A /* ChatViewController.swift in Sources */,
+				654C9AEC1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift in Sources */,
+				6505516E1BC0F481001BB130 /* ComImgCell.swift in Sources */,
+				654C9AE41BCCE1C800F71E31 /* CancelButtonDelegate.swift in Sources */,
+				654C9AE61BCCE2D800F71E31 /* SingleChatRoom.swift in Sources */,
+				659A59721BC07FBD00B101F6 /* CommentCell.swift in Sources */,
+				654C9AE81BCCE8E800F71E31 /* SettingsViewController.swift in Sources */,
 				651131661BBF02A300187C1A /* ChatListCell.swift in Sources */,
+				654C9AEE1BCCEF4700F71E31 /* MoreViewController.swift in Sources */,
+				655994D41BCCD8B6005156A2 /* ChatHeader.m in Sources */,
 				65E1D5631BBD04BA00E94FB6 /* MomentViewController.swift in Sources */,
 				65CAA9FD1BB3377E00B39C40 /* AppDelegate.swift in Sources */,
+				659A59701BC07CC900B101F6 /* MomentDetailViewController.swift in Sources */,
 				65E1D5651BBD05C000E94FB6 /* MomentCell.swift in Sources */,
 				65645BAB1BBBA37C006B8E2D /* classCell.swift in Sources */,
 				6514B9CD1BBA6AA10087E5FB /* ClassRowCell.swift in Sources */,
@@ -427,11 +522,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gotcha",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = gotcha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gotcha/gotcha-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -439,11 +543,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/gotcha",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = gotcha/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "gotcha/gotcha-Bridging-Header.h";
 			};
 			name = Release;
 		};

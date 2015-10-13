@@ -1,0 +1,12 @@
+//
+//  CancelButtonDelegate.swift
+//  gotcha
+//
+//  Created by Bingyao Li on 10/13/15.
+//  Copyright © 2015 Bingyao Li. All rights reserved.
+//
+
+import UIKit
+protocol CancelButtonDelegate: class {
+    func cancelButtonPressedFrom(controller: UIViewController)
+}
