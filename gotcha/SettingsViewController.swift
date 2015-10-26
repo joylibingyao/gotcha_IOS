@@ -14,8 +14,14 @@ class SettingsViewController: UITableViewController {
     var userInfo = ["Avatar","Name","Email","Password","Gender","Year","Major","Score"]
     
     @IBAction func CancelPressed(sender: AnyObject) {
+        
         cancelButtonDelegate?.cancelButtonPressedFrom(self)
         
+    }
+    
+    @IBAction func donePressed(sender: AnyObject) {
+        cancelButtonDelegate?.cancelButtonPressedFrom(self)
+        print("saved")
     }
     //    ----------------draw table-------------------------//
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
