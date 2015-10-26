@@ -39,7 +39,7 @@ class ChatViewController:UITableViewController,CancelButtonDelegate {
     }
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return quotesArray.count;
+        return quotesArray.count; 
     }//draw table
     
     func cancelButtonPressedFrom(controller: UIViewController) {
@@ -48,6 +48,7 @@ class ChatViewController:UITableViewController,CancelButtonDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "ClickedChatList" {
+            print("clicked chat list")
             let navigationController = segue.destinationViewController as! UINavigationController
             let controller = navigationController.topViewController as! SingleChatRoomViewController
             controller.cancelButtonDelegate = self
