@@ -10,5 +10,5 @@ import UIKit
 class SettingsDetailCell:UITableViewCell {
     
     @IBOutlet var infoTitle: UILabel!
-    @IBOutlet var infoContent: UILabel!
+    @IBOutlet var infoContent: UITextField!
 }

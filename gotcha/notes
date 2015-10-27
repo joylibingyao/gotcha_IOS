@@ -1,4 +1,24 @@
 Moment: Each Moemnt is a cell -> images should be table cells too => nested table -> impossible -> alternate solution??????
 MomentDetail:Two prototype cells-> indexPath.section ?????
-Chat:parse
-cancel doesn't work'
+
+//Chat:parse
+
+
+
+
+Initial:
+    Sign Up:university:picker View
+
+
+
+
+Home:
+    todo List:later feature
+
+Where to put schedule:caledar
+
+ClassRoom: slide menu datainput
+
+More:
+    Name Card: Posts, class Schedule, and info display
+    edit: add class
