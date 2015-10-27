@@ -11,7 +11,9 @@ class SettingsViewController: UITableViewController {
     
     weak var cancelButtonDelegate: CancelButtonDelegate?
     
-    var userInfo = ["Avatar","Name","Email","Password","Gender","Year","Major","Score"]
+    
+    
+    var userInfo = ["Avatar","Name","Email","Password","Gender","University","Year","Major","Score"]
     
     @IBAction func CancelPressed(sender: AnyObject) {
         
@@ -23,7 +25,7 @@ class SettingsViewController: UITableViewController {
         cancelButtonDelegate?.cancelButtonPressedFrom(self)
         print("saved")
     }
-    //    ----------------draw table-------------------------//
+    //    ---------------draw table-------------------------//
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         // dequeue the cell from our storyboard

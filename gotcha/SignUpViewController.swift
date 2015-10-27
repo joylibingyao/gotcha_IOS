@@ -8,7 +8,9 @@
 
 import UIKit
 class SignUpViewController:UIViewController {
+    var error=false
     
+    @IBOutlet var hiddenMessage: UILabel!
     @IBOutlet var name: UITextField!
     @IBOutlet var email: UITextField!
     
@@ -17,10 +19,24 @@ class SignUpViewController:UIViewController {
     @IBOutlet var confirmPassword: UITextField!
     
     @IBAction func registerPressed(sender: AnyObject) {
-        //send all info to backend
+        //send all info to backend to check if
+        if (error == true){//if user exist
+            hiddenMessage.hidden=false
+            hiddenMessage.text="User Already Existed"
+        }
+        else{
+            self.performSegueWithIdentifier("RegisterSuccess", sender: nil)//send with userInfo eg:user id name password
+        }
     }
     
     
-    
+    override func viewDidAppear(animated: Bool) {
+
+//        hidden message should not appear
+        hiddenMessage.hidden=true
+    }
+    override func viewWillAppear(animated: Bool) {
+        hiddenMessage.hidden=true
+    }
     
 }

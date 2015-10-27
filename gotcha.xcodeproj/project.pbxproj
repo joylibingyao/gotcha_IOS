@@ -10,6 +10,8 @@
 		6505516E1BC0F481001BB130 /* ComImgCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6505516D1BC0F481001BB130 /* ComImgCell.swift */; };
 		650551751BC109C1001BB130 /* notes in Resources */ = {isa = PBXBuildFile; fileRef = 650551741BC109C1001BB130 /* notes */; };
 		650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */; };
+		650EB1821BDE9B2E00D1DB73 /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650EB1811BDE9B2E00D1DB73 /* mainPage.swift */; };
+		650EB1841BDEBCEB00D1DB73 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650EB1831BDEBCEB00D1DB73 /* ForgotViewController.swift */; };
 		651131641BBF01F200187C1A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131631BBF01F200187C1A /* ChatViewController.swift */; };
 		651131661BBF02A300187C1A /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651131651BBF02A300187C1A /* ChatListCell.swift */; };
 		653751851BDA9B8000D1118F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653751841BDA9B8000D1118F /* ContactViewController.swift */; };
@@ -61,6 +63,8 @@
 		6505516D1BC0F481001BB130 /* ComImgCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComImgCell.swift; sourceTree = "<group>"; };
 		650551741BC109C1001BB130 /* notes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes; sourceTree = "<group>"; };
 		650B0EBA1BB74240001614DF /* ClassRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassRoomViewController.swift; sourceTree = "<group>"; };
+		650EB1811BDE9B2E00D1DB73 /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		650EB1831BDEBCEB00D1DB73 /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
 		651131631BBF01F200187C1A /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		651131651BBF02A300187C1A /* ChatListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
 		653751841BDA9B8000D1118F /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
@@ -167,8 +171,8 @@
 		650551731BC10898001BB130 /* More */ = {
 			isa = PBXGroup;
 			children = (
-				6554F1561BDCA838005504AC /* contact */,
 				654C9AED1BCCEF4700F71E31 /* MoreViewController.swift */,
+				6554F1561BDCA838005504AC /* contact */,
 				654C9AE71BCCE8E800F71E31 /* SettingsViewController.swift */,
 				654C9AE91BCCEA2900F71E31 /* SettingsDetailCell.swift */,
 				654C9AEB1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift */,
@@ -201,6 +205,8 @@
 			children = (
 				6598F1161BDDE30D00096820 /* InitialViewController.swift */,
 				65F2E4E81BDDE77900ECC3B5 /* SignUpViewController.swift */,
+				650EB1811BDE9B2E00D1DB73 /* mainPage.swift */,
+				650EB1831BDEBCEB00D1DB73 /* ForgotViewController.swift */,
 			);
 			name = initial;
 			sourceTree = "<group>";
@@ -401,6 +407,7 @@
 			files = (
 				654C9AEA1BCCEA2900F71E31 /* SettingsDetailCell.swift in Sources */,
 				65CAA9FF1BB3377E00B39C40 /* HomeViewController.swift in Sources */,
+				650EB1841BDEBCEB00D1DB73 /* ForgotViewController.swift in Sources */,
 				650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */,
 				6554F1651BDCC2D3005504AC /* SWRevealViewController.m in Sources */,
 				65F2E4E91BDDE77900ECC3B5 /* SignUpViewController.swift in Sources */,
@@ -418,6 +425,7 @@
 				6598F1171BDDE30D00096820 /* InitialViewController.swift in Sources */,
 				6554F1581BDCA84C005504AC /* ContactCell.swift in Sources */,
 				654C9AEE1BCCEF4700F71E31 /* MoreViewController.swift in Sources */,
+				650EB1821BDE9B2E00D1DB73 /* mainPage.swift in Sources */,
 				655994D41BCCD8B6005156A2 /* ChatHeader.m in Sources */,
 				65E1D5631BBD04BA00E94FB6 /* MomentViewController.swift in Sources */,
 				65CAA9FD1BB3377E00B39C40 /* AppDelegate.swift in Sources */,
