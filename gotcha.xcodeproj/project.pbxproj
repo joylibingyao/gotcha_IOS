@@ -40,6 +40,7 @@
 		65E1D5631BBD04BA00E94FB6 /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1D5621BBD04BA00E94FB6 /* MomentViewController.swift */; };
 		65E1D5651BBD05C000E94FB6 /* MomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E1D5641BBD05C000E94FB6 /* MomentCell.swift */; };
 		65F2E4E91BDDE77900ECC3B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F2E4E81BDDE77900ECC3B5 /* SignUpViewController.swift */; };
+		746C5A8C1C0BE53D00B1A77F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C5A8B1C0BE53D00B1A77F /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		65E1D5621BBD04BA00E94FB6 /* MomentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentViewController.swift; sourceTree = "<group>"; };
 		65E1D5641BBD05C000E94FB6 /* MomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCell.swift; sourceTree = "<group>"; };
 		65F2E4E81BDDE77900ECC3B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		746C5A8B1C0BE53D00B1A77F /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 				655994D31BCCD8B6005156A2 /* ChatHeader.m */,
 				655994D21BCCD8B6005156A2 /* gotcha-Bridging-Header.h */,
 				654C9AE31BCCE1C800F71E31 /* CancelButtonDelegate.swift */,
+				746C5A8B1C0BE53D00B1A77F /* API.swift */,
 			);
 			path = gotcha;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				650B0EBB1BB74240001614DF /* ClassRoomViewController.swift in Sources */,
 				6554F1651BDCC2D3005504AC /* SWRevealViewController.m in Sources */,
 				65F2E4E91BDDE77900ECC3B5 /* SignUpViewController.swift in Sources */,
+				746C5A8C1C0BE53D00B1A77F /* API.swift in Sources */,
 				651131641BBF01F200187C1A /* ChatViewController.swift in Sources */,
 				654C9AEC1BCCEC3200F71E31 /* SettingDetailAvatarCell.swift in Sources */,
 				6505516E1BC0F481001BB130 /* ComImgCell.swift in Sources */,
@@ -575,6 +579,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gotcha",
@@ -583,8 +588,9 @@
 				INFOPLIST_FILE = gotcha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
+				PRODUCT_BUNDLE_IDENTIFIER = class.gotcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "gotcha/gotcha-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -596,6 +602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/gotcha",
@@ -604,8 +611,9 @@
 				INFOPLIST_FILE = gotcha/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = CMPSC.gotcha;
+				PRODUCT_BUNDLE_IDENTIFIER = class.gotcha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "gotcha/gotcha-Bridging-Header.h";
 			};
 			name = Release;

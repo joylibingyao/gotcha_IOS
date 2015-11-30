@@ -9,7 +9,7 @@
 import UIKit
 class SignUpViewController:UIViewController {
     var error=false
-    
+//    var API = API
     @IBOutlet var hiddenMessage: UILabel!
     @IBOutlet var name: UITextField!
     @IBOutlet var email: UITextField!
@@ -25,6 +25,10 @@ class SignUpViewController:UIViewController {
             hiddenMessage.text="User Already Existed"
         }
         else{
+            
+            dispatch_async(dispatch_get_main_queue(),{
+                APII.getUserData("test")
+                })
             self.performSegueWithIdentifier("RegisterSuccess", sender: nil)//send with userInfo eg:user id name password
         }
     }
@@ -32,11 +36,13 @@ class SignUpViewController:UIViewController {
     
     override func viewDidAppear(animated: Bool) {
 
-//        hidden message should not appear
+        //hidden message should not appear
         hiddenMessage.hidden=true
     }
+    
     override func viewWillAppear(animated: Bool) {
         hiddenMessage.hidden=true
     }
     
+
 }
